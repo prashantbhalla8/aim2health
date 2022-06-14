@@ -1,0 +1,299 @@
+.container-fluid {
+  padding: 3% 10% 5%;
+}
+
+#title {
+  background-image: linear-gradient(to bottom right, #105245,#539473,#76b07a,#bada7f, white);
+  color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Brygada 1918', serif;
+
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;  
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*
+navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: white;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat ;";
+  font-weight: 300;
+  
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+  background-color: rgb(255, 153, 0);
+  border: none;
+
+
+}
+.download-button-l{
+  background-color: rgb(255, 153, 0);
+  border: none;
+}
+/* title image */
+.title-image {
+  width: 27%;
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+}
+
+/* feature' section */
+#features {
+  padding: 2% 5%;
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.fas {
+  color: #dc4747;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #ff7777;
+}
+
+/* testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 18%;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  @media (max-width: 1020px) {
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+  
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* cta */
+h5 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#cta {
+  background-color: #f98f1d;
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+}
+
+#footer {
+  padding: 5% 15%;
+}
+
+.webb {
+  text-align: center;
+  margin: 20px 10px;
+}
+
+p {
+  text-align: center;
+}
+.download-button-A{
+  background-color: rgb(77, 77, 77);
+  border: none;
+  
+}
+.loreeem{
+  color: white;
+  padding:2;
+}
+.btn-group button {
+  background-color: #ffffff; /* Green background */
+  border: 1px solid rgb(195, 195, 195); /* Green border */
+  color: rgb(0, 0, 0); /* White text */
+  resize: none;
+  padding: 100px; 
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: rgb(255, 153, 0);
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 9px 9px 4.5px grey;
+}
+.btn-group{
+  vertical-align: middle;
+  padding-top: 5%;
+  padding-left: 22%;
+}
+.btn-down{
+  background-color: white;
+  /* border: none;
+  outline: none; */
+}
+.btn-gr button {
+  background-color: #ffffff; /* Green background */
+  border: 1px solid rgb(195, 195, 195); /* Green border */
+  color: rgb(0, 0, 0); /* White text */
+  resize: none;
+  padding: 94.7031px; 
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-gr button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-gr:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-gr button:hover {
+  background-color: rgb(255, 153, 0);
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 9px 9px 4.5px grey;
+}
+.btn-gr{
+  padding-left: 22%;
+  padding-bottom: 0%;
+}
+.btn-down{
+  background-color: white;
+}
+
+/* faaltu */
+.faaltu{
+  padding: 5%;
+  padding-right: 50%;
+  padding-bottom:2% ;
+  color: rgb(255, 136, 0);
+}
+.para{
+  color: rgb(4, 23, 96);
+  padding: 10%;
+  padding-right: 50%;
+  padding-top: 0px;
+  padding-bottom: 5%;
+  text-align: left;
+  text-decoration: solid;
+  
+}
+
+
+
+.doctt{
+  width: 18%;
+  position: absolute;
+  right: 20%;
+  top: 160%;
+}
+
+.aim-image{
+  position: static;
+}
+
+.picc{
+  width: 5%;
+}
+
+
+.bc{
+    width: 27%;
+    position: absolute;
+    right: 15%;
+    top: 145%;
+  
+}

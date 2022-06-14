@@ -1,0 +1,172 @@
+.container-fluid {
+  padding: 3% 10% 5%;
+}
+
+#title {
+  background-image: linear-gradient(to bottom right, #105245,#539473,#76b07a,#bada7f, white);
+  color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Brygada 1918', serif;
+
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;  
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*
+navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: white;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat ;";
+  font-weight: 300;
+  
+}
+
+/* title image */
+.title-image {
+  width: 27%;
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
+  top: 10%;
+}
+
+/* dropdown */
+      /* Style The Dropdown Button */
+      .dropbtn {
+        background-color: #ff9100;
+        color: white;
+        padding: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: absolute;
+        display: inline-block;
+        right: 15%;
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f08000;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding: 12px 80px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #e47d07}
+      
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdown:hover .dropbtn {
+        background-color: #ffb14a;
+      }
+
+
+
+
+/* tropdown */
+
+.tropbtn {
+  background-color: #ff9100;
+  color: white;
+  padding: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.tropdown {
+  position: absolute;
+  display: inline-block;
+  right: 15%;
+  bottom: 45%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.tropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f08000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.tropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 80px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.tropdown-content a:hover {background-color: #e47d07}
+
+/* Show the dropdown menu on hover */
+.tropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.tropdown:hover .dropbtn {
+  background-color: #ffb14a;
+}
